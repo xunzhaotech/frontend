@@ -1,0 +1,11 @@
+{
+  "name": "docs",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "dev": "cd packages/demos && npm run dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
